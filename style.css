@@ -19,11 +19,13 @@ body{
     Font-size: 15px;
 }
 main{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 h1{
     font-family: 'Big Shoulders Display', 'cursive';
@@ -43,8 +45,10 @@ p{
 .card{
     display: flex;
     margin: auto;
-    width: 832px;
+    max-width: 832px;
     text-align: left;
+    overflow: hidden;
+    border-radius: 10px;
     
 }
 .sedans{
@@ -105,13 +109,13 @@ img{
     color: white;
     background-color: var(--Very-dark-cyan);
 }
-/* .attribution{
+.attribution{
     margin-bottom: 1rem;
     font-size: 12px;
 }
 footer{
     margin-bottom: 1rem;
-} */
+}
 @media (max-width: 870px){
 
     .card{
